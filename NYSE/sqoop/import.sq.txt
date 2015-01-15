@@ -1,0 +1,3 @@
+Import stock data from the table nasdaq_daily_prices into hdfs using following command
+
+sqoop import --connect jdbc:mysql://localhost/nyse --username root --password root --table nasdaq_daily_prices  --m 1

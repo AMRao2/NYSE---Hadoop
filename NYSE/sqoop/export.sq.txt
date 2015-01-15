@@ -1,0 +1,1 @@
+sqoop export --connect jdbc:mysql://localhost/nyse  --table stock_volume   --export-dir /user/cloudera/nyse/out/sum --username root --P --fields-terminated-by '\t' --lines-terminated-by '\n' -m 1
